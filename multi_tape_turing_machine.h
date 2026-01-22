@@ -1,16 +1,15 @@
-#ifndef MULTI_TAPE_TURING_MACHINE_H
-#define MULTI_TAPE_TURING_MACHINE_H
+#pragma once
 
 #include "Sequence.h"
 #include "exceptions.h"
 #include "BidirectionalLazyTape.h"
+#include "identifier.h"
 #include <unordered_map>  
 #include <set>
 #include <string>
 #include <memory>
 #include <stdexcept>
 #include <iostream>
-#include <functional>
 #include <optional>
 #include <sstream>
 #include <array>
@@ -398,5 +397,3 @@ private:
         return arr;
     }
 };
-
-#endif // MULTI_TAPE_TURING_MACHINE_H
